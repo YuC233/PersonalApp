@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:background="#20B2AA"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/tab_news_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/tab_news_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#20B2AA"
+            android:clickable="false"
+            android:src="@mipmap/tab_paper" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="文章"
+            android:textColor="#FFFACD"
+            android:textSize="22dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_picture_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/tab_picture_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#20B2AA"
+            android:clickable="false"
+            android:src="@mipmap/tab_picture" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="美照"
+            android:textColor="#FFFACD"
+            android:textSize="22dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_individual_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/tab_individual_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#20B2AA"
+            android:clickable="false"
+            android:src="@mipmap/tab_individual" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="个人中心"
+            android:textColor="#FFFACD"
+            android:textSize="22dp" />
+    </LinearLayout>
+</LinearLayout>
